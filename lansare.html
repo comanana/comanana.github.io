@@ -10,11 +10,23 @@
       <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
       <link href="css/styles.css" rel="stylesheet" />
    </head>
+   <style>
+      .img-container {
+         float: left;
+         padding: 5px;
+      }
+
+      .clearfix::after {
+         content: "";
+         clear: both;
+         display: table;
+      }
+   </style>
    <body>
       <div class="d-flex" id="wrapper">
          <!-- Sidebar-->
          <div class="bg-light border-right" id="sidebar-wrapper">
-            <div class="sidebar-heading">Testul celor 4 întrebări</div>
+            <div class="sidebar-heading">Testul celor 4 întrebări<br><font size="-2">Acest site nu stochează cookie-uri.<br>(This site does not store cookies.)</font></div>
             <div class="list-group list-group-flush">
                <a class="list-group-item list-group-item-action bg-light" href="./lansare.html">Lansare</a>
                <a class="list-group-item list-group-item-action bg-light" href="./notaInformare.html">Notă informare</a>
@@ -37,22 +49,39 @@
                   </ul>
                </div>
             </nav>
-            <div class="container-fluid">
-               <p>Rotary District 2241 România &amp; Republica Moldova<br>Clubul Rotary Brăila<br>în parteneriat cu<br>Colegiul Național Gh. M. Murgoci- Brăila<br>organizează<br></p>
-               <p style="color:blue;">	CONCURSUL  DISTRICTUAL TESTUL CELOR 4 ÎNTREBĂRI<br>-EDIȚIA a IX-a-<br>MAI-IUNIE 2021</p>
-               <h1 id="etape-">Etape:</h1>
+            <div class="clearfix">
+               <div class="row">
+                  <div class="img-container">
+                     <img src="./assets/rotarydistrict.png" alt="Snow" style="width:100%">
+                  </div>
+                  <div class="img-container">
+                     <img src="./assets/rotaryclub.png" alt="Snow" style="width:100%">
+                  </div>
+                  <div class="img-container">
+                     <img src="./assets/cngmmlogo.png" alt="Forest" style="width:100%">
+                  </div>
+               </div>
+               <p><i>Rotary District 2241 România &amp; Republica Moldova<br>Clubul Rotary Brăila<br>în parteneriat cu<br>Colegiul Național Gh. M. Murgoci- Brăila<br>organizează<br></i></p>
+               <p style="color:blue;">	CONCURSUL  DISTRICTUAL TESTUL CELOR 4 ÎNTREBĂRI<br>-EDIȚIA a X-a-<br>MAI-IUNIE 2022</p>
+               <h2 id="etape-">Etape:</h3>
                <ol>
-                  <li>Locală – 17 mai -31 mai 2021</li>
-                  <li>Națională – 6-14 iunie 2021
-                     Concursul se va organiza pentru fiecare dintre etape în secțiunile:
+                  <li>Locală : 2 mai - 3 iunie 2022</li>
+                  <li>Națională : 11 iunie 2022
                   </li>
                </ol>
-               <h1 id="elaborare-de-eseuri">Elaborare de eseuri</h1>
-               <p>Prezentarea eseurilor  on-line( 14 iunie 2021, Platforma Zoom).<br>Premierea elevilor finaliști (on-line): 14 iunie 2021</p>
-               <h1 id="pre-edintele-juriului-">PREȘEDINTELE JURIULUI:</h1>
-               <p>CORNEL WILFRED CĂLINOIU-  GUVERNATORUL DISTRICTULUI 2241 ROMÂNIA &amp;REPUBLICA MOLDOVA</p>
-               <h1 id="pentru-informa-ii-">Pentru INFORMAȚII:</h1>
-               <p><a href="https://rotary4waycontest.ro/">https://rotary4waycontest.ro/</a><br>annakomann@gmail.com</p>
+               <h4 id="concurs">Concursul se va organiza pentru fiecare dintre etape în secțiunile:</h4>
+               <ol>
+                  <li>Elaborare de eseuri</li>
+                  <li>Prezentarea eseurilor  on-line( 11 iunie 2022, ora 15:00, Platforma Zoom).</li>
+                  <li>Premierea elevilor finaliști (on-line): 11 iunie 2022</li>
+               </ol>
+               <h4 id="presedintele-juriului-">PREȘEDINTELE JURIULUI:</h4>
+               <p>ADRIAN LUCA -  GUVERNATORUL DISTRICTULUI 2241 ROMÂNIA &amp;REPUBLICA MOLDOVA</p>
+               <h4 id="coordonator">Coordonator:</h4>
+               <p>Prof. dr. Ana Coman, Secretar executiv, Club Rotary Brăila </p>
+               <h4 id="pentru-informa-ii-">Pentru INFORMAȚII:</h4>
+               <p><a href="https://rotary4waycontest.ro/">https://rotary4waycontest.ro/</a><br>
+                  <a href="https://comanana.github.io/index.html">https://comanana.github.io/index.html</a><br>annakomann@gmail.com</p>
             </div>
          </div>
       </div>
